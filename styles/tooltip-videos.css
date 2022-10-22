@@ -1,0 +1,45 @@
+.tooltip-preview {
+  background-color: white;
+  display: flex;
+  position: absolute;
+  bottom: -30px;
+  width: 185px;
+  height: 50px;
+  padding: 10px;
+  border-radius: 6px;
+  box-shadow: 0 0 7px rgba(104, 103, 103, 0.329);
+  opacity: 0;
+  transition: opacity 0.15s;
+  pointer-events: none;
+}
+
+.channel-picture-tooltip {
+  margin-right: 7px;
+}
+
+.profile-picture-tooltip {
+  position: relative;
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+}
+
+.video-info-tooltip {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.video-author-tooltip {
+  font-family: Roboto, Arial;
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 2px;
+}
+
+.video-subscribers-tooltip {
+  font-family: Roboto, Arial;
+  font-size: 13px;
+  color: grey;
+}
